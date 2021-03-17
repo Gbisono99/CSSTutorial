@@ -14,19 +14,39 @@
             </div>
         </header>
         <main>
+            <!--
+            Inline styling is by giving any type the style attribute
+            Having style equal different properties change the property by the given value of said style.
+            -Use the style attribute for styling HTML elements
+            -background-color for background color
+            -color for text colors
+            -font-family for text fonts
+            -font-size for text sizes
+            -text-align for text alignment
+
+            There are only a few out of many CSS properties.
+            For more information: https://www.w3schools.com/cssref/
+            -->
             <h2>This is a test page for learning CSS.</h2>
             
-            <section>
+            <section style="color:blue;font-size:20px">
                 <h3>Section One</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis imperdiet lectus. Suspendisse potenti. Mauris vel ipsum id tortor consequat dictum vel eget diam. Praesent vel dolor id orci iaculis tincidunt. Etiam imperdiet erat eu quam gravida, ac imperdiet sem condimentum. Fusce sollicitudin ante eu mi tempor posuere.</p>
+                <p>This is an example of CSS style properties called color and font-size</p>
             </section>
 
-            <section>
+            <section style="background-color: aqua; color:brown">
                 <h3>Section Two</h3>
-                <p>Vestibulum varius maximus nibh, et dapibus lorem laoreet vel. Duis volutpat rhoncus sagittis. Quisque iaculis finibus sem, vitae finibus purus volutpat vestibulum. Phasellus quis ultrices elit. Vivamus orci enim, eleifend quis sagittis sed, fringilla ac elit. Duis efficitur odio eget iaculis lacinia. Vivamus semper ante a sapien pharetra, et lobortis massa interdum.</p>
+                <p>No override.</p>
+                <p style="color:yellow">An example of an override.</p>
             </section>
 
+            <section style ="border: 1px solid royalblue; width: 200px; max-height: 500px;">
+                <h3>Section Two</h3>
+                <p>An example of a border, width and max-height.</p>
+            </section>
+
+            
 
         </main>
         <footer>
